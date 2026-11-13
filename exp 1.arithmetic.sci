@@ -1,0 +1,33 @@
+clc;
+
+clear;
+
+// Input
+
+a = input("Enter the first number: ");
+
+b = input("Enter the second number: ");
+
+// Arithmetic operations
+
+addition = a + b;
+
+subtraction = a - b;
+
+multiplication = a * b;
+
+division = a / b;
+
+remainder = modulo(a, b);
+
+// Display results
+
+disp("Addition = " + string(addition));
+
+disp("Subtraction = " + string(subtraction));
+
+disp("Multiplication = " + string(multiplication));
+
+disp("Division = " + string(division));
+
+disp("Remainder = " + string(remainder));
